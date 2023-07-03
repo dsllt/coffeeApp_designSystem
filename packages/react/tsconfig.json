@@ -1,0 +1,6 @@
+{
+  "extends": "@POAcoffee/ts-config/react.json",
+  "include": [
+    "src"
+  ]
+}
