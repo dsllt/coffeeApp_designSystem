@@ -1,0 +1,6 @@
+{
+  "extends": "@POAcoffee/ts-config/base.json",
+  "include": [
+    "src"
+  ]
+}
