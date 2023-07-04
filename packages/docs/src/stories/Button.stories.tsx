@@ -4,7 +4,7 @@ import { Button } from '@POAcoffee/react'
 import { X } from 'phosphor-react'
 
 export default {
-  title: 'Button',
+  title: 'Actions/Button',
   component: Button,
 
   args: {

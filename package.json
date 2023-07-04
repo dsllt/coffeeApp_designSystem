@@ -3,7 +3,11 @@
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {
-    "phosphor-react": "^1.4.1"
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "^1.10.7"
   }
 }
