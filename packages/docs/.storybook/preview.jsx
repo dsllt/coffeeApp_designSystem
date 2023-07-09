@@ -1,5 +1,5 @@
 import { themes } from '@storybook/theming'
-import { Title, Subtitle, Description, Primary, Controls, Stories } from '@storybook/blocks'
+import { Title, Subtitle, Description, Primary, Controls, Stories, Canvas } from '@storybook/blocks'
 /** @type { import('@storybook/react').Preview } */
 const preview = {
   parameters: {
@@ -24,12 +24,15 @@ const preview = {
     theme: themes.dark,
     page:  () => (
       <>
+      <Canvas id="anchor--foundation-color--color">
+        
         <Title />
         <Subtitle />
         <Description />
         <Primary />
         <Controls />
         <Stories />
+      </Canvas>
       </>
     ),
   }
