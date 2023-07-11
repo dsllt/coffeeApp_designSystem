@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import { Box, Rating, RatingProps } from '@POAcoffee/react'
 
 export default {
-  title: 'Form/Rating',
+  title: 'Data display/Rating',
   tags: ['autodocs'],
   component: Rating,
   args: {
