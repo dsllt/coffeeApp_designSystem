@@ -23,6 +23,7 @@ export const {
     ...defaultThemeMap,
     height: 'space',
     width: 'space',
+    '-webkit-font-smoothing': 'antialiased',
   },
   theme: {
     colors,

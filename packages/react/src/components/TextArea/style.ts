@@ -22,13 +22,8 @@ export const TextAreaInput = styled('textarea', {
   border: '1px solid $gray400',
   padding: '$12p $20p',
 
-  '&:placeholder': {
+  '&::placeholder': {
     color: '$gray400',
-  },
-
-  '&:focus': {
-    outline: 0,
-    border: '1px solid $green200',
   },
 })
 

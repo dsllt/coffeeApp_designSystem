@@ -40,6 +40,17 @@ export const Button = styled('button', {
           background: '$gray200',
         },
       },
+      secondary: {
+        color: '$green100',
+        backgroundColor: '$gray600',
+
+        '&:not(:disabled):hover': {
+          background: '$gray500',
+        },
+        '&:disabled': {
+          background: '$gray200',
+        },
+      },
     },
     size: {
       default: {

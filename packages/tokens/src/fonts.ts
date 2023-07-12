@@ -1,4 +1,4 @@
 export const fonts = {
-  default: 'Nunito, sans-serif',
+  default: 'Nunito Sans, sans-serif',
   code: 'monospace',
 }
