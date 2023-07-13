@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react'
 import { NewCommentBox, NewCommentBoxProps } from '@POAcoffee/react'
 
 export default {
-  title: 'Data display/NewCommentBox',
+  title: 'Data display/New Comment Box',
   tags: ['autodocs'],
   component: NewCommentBox,
   args: {
