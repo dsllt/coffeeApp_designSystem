@@ -16,13 +16,19 @@ export interface NewCommentBoxProps
   extends ComponentProps<typeof NewCommentBoxContainer> {
   userImg?: string
   userName: string
+  rating?: any
 }
 
-export function NewCommentBox({ userImg, userName }: NewCommentBoxProps) {
+export function NewCommentBox({
+  userImg,
+  userName,
+  rating,
+}: NewCommentBoxProps) {
   const [ratingNumber, setRatingNumber] = useState(0)
 
   function handleRating(number: number) {
     setRatingNumber(number)
+    rating(number)
   }
   return (
     <NewCommentBoxContainer>
@@ -36,7 +42,10 @@ export function NewCommentBox({ userImg, userName }: NewCommentBoxProps) {
           {Array.from({ length: 5 }, (_, i) => i + 1).map((star) => {
             return (
               <button key={star} onClick={() => handleRating(star)}>
-                <Star size={26} />
+                <Star
+                  size={26}
+                  weight={ratingNumber! >= star ? 'fill' : 'regular'}
+                />
               </button>
             )
           })}

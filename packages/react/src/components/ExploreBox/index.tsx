@@ -10,7 +10,7 @@ import {
   CategoryContainer,
   ExploreBoxContainer,
 } from './style'
-import { BookOpen, BookmarkSimple } from 'phosphor-react'
+import { BookmarkSimple, Coffee } from 'phosphor-react'
 
 export interface ExploreBoxProps
   extends ComponentProps<typeof ExploreBoxContainer> {
@@ -19,7 +19,7 @@ export interface ExploreBoxProps
   bookAuthor: string
   rating: number
   category: string
-  numberPages: number
+  recommended: string
   totalReviews: number
 }
 
@@ -29,7 +29,7 @@ export function ExploreBox({
   bookAuthor,
   rating,
   category,
-  numberPages,
+  recommended,
   totalReviews,
 }: ExploreBoxProps) {
   return (
@@ -68,12 +68,12 @@ export function ExploreBox({
           </div>
         </Category>
         <Category>
-          <BookOpen />
+          <Coffee />
           <div>
             <Text size={'12p'} css={{ color: '$gray300' }}>
-              Páginas
+              Recomendado
             </Text>
-            <Heading size={'16p'}>{numberPages}</Heading>
+            <Heading size={'16p'}>{recommended}</Heading>
           </div>
         </Category>
       </CategoryContainer>

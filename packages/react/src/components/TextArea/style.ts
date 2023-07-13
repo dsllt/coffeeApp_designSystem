@@ -25,11 +25,16 @@ export const TextAreaInput = styled('textarea', {
   '&::placeholder': {
     color: '$gray400',
   },
+
+  '&:focus': {
+    outline: 'none',
+  },
 })
 
 export const TextAreaCount = styled('div', {
   fontFamily: '$default',
   fontWeight: '$regular',
+  fontSize: '$12p',
   color: '#7C7C8A',
   position: 'relative',
   alignSelf: 'end',

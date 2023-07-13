@@ -7,12 +7,12 @@ export default {
   component: ExploreBox,
   args: {
     imgSrc:
-      'https://m.media-amazon.com/images/P/B009WWDBX0.01._SCLZZZZZZZ_SX500_.jpg',
-    bookTitle: 'A revolução dos bichos',
-    bookAuthor: 'George Orwell',
+      'https://lh3.googleusercontent.com/p/AF1QipMaOguJHFLhc0Vmu5dgd1_y26zPljSNnCMjagU4=s1360-w1360-h1020',
+    bookTitle: 'The Coffee',
+    bookAuthor: 'Rua Fernandes Vieira, 656 - Bom Fim',
     rating: 4,
-    category: 'Computação, educação',
-    numberPages: 160,
+    category: 'Dine-in · Kerbside pickup',
+    recommended: 'Cappuccino',
     totalReviews: 3,
   },
 } as Meta<ExploreBoxProps>

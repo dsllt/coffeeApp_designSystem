@@ -9,6 +9,7 @@ export const InfoBoxContainer = styled(Box, {
 export const BookImage = styled('img', {
   width: 108,
   height: 152,
+  objectFit: 'cover',
 })
 export const BookInfo = styled('div', {
   display: 'flex',
