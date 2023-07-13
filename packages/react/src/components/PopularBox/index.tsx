@@ -7,28 +7,28 @@ import { BookImage, BookInfo, PopularBoxContainer } from './style'
 export interface PopularBoxProps
   extends ComponentProps<typeof PopularBoxContainer> {
   imgSrc: string
-  bookTitle: string
-  bookAuthor: string
+  coffeeName: string
+  coffeeAddress: string
   rating: number
 }
 
 export function PopularBox({
   imgSrc,
-  bookTitle,
-  bookAuthor,
+  coffeeName,
+  coffeeAddress,
   rating,
 }: PopularBoxProps) {
   return (
     <PopularBoxContainer>
-      <BookImage src={imgSrc} alt={bookTitle} />
+      <BookImage src={imgSrc} alt={coffeeName} />
       <BookInfo>
         <div>
-          <Heading size={'16p'}>{bookTitle}</Heading>
+          <Heading size={'16p'}>{coffeeName}</Heading>
           <Text
             size={'14p'}
             css={{ color: '$gray400', fontFamily: '$default' }}
           >
-            {bookAuthor}
+            {coffeeAddress}
           </Text>
         </div>
         <Rating ratingStars={rating} />

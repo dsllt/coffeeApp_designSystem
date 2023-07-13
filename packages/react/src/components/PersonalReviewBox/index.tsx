@@ -15,8 +15,8 @@ import { formatDistanceToNow } from 'date-fns'
 export interface PersonalReviewBoxProps
   extends ComponentProps<typeof PersonalReviewBoxContainer> {
   imgSrc: string
-  bookTitle: string
-  bookAuthor: string
+  coffeeName: string
+  coffeeAddress: string
   rating: number
   review: string
   reviewDate: Date
@@ -24,15 +24,15 @@ export interface PersonalReviewBoxProps
 
 export function PersonalReviewBox({
   imgSrc,
-  bookTitle,
-  bookAuthor,
+  coffeeName,
+  coffeeAddress,
   rating,
   review,
   reviewDate,
 }: PersonalReviewBoxProps) {
   return (
     <PersonalReviewBoxContainer>
-      <Image src={imgSrc} alt={bookTitle} />
+      <Image src={imgSrc} alt={coffeeName} />
       <InfoContainer>
         <DataInfo>
           <Text css={{ color: '$gray200', fontSize: '$14p' }}>
@@ -44,12 +44,12 @@ export function PersonalReviewBox({
           <Rating ratingStars={rating} />
         </DataInfo>
         <BookInfo>
-          <Heading size={'16p'}>{bookTitle}</Heading>
+          <Heading size={'16p'}>{coffeeName}</Heading>
           <Text
             size={'16p'}
             css={{ color: '$gray400', fontFamily: '$default' }}
           >
-            {bookAuthor}
+            {coffeeAddress}
           </Text>
         </BookInfo>
         <Text css={{ color: '$gray300', fontSize: '$14p' }}>{review}</Text>

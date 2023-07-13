@@ -22,8 +22,8 @@ export interface ReviewBoxProps
   reviewDate: Date
   rating: number
   imgSrc: string
-  bookTitle: string
-  bookAuthor: string
+  coffeeName: string
+  coffeeAddress: string
   review: string
 }
 
@@ -33,8 +33,8 @@ export function ReviewBox({
   reviewDate,
   rating,
   imgSrc,
-  bookTitle,
-  bookAuthor,
+  coffeeName,
+  coffeeAddress,
   review,
 }: ReviewBoxProps) {
   return (
@@ -56,15 +56,15 @@ export function ReviewBox({
         <Rating ratingStars={rating} />
       </Header>
       <Content>
-        <Image src={imgSrc} alt={bookTitle} />
+        <Image src={imgSrc} alt={coffeeName} />
         <Description>
           <BookInfo>
-            <Heading size={'16p'}>{bookTitle}</Heading>
+            <Heading size={'16p'}>{coffeeName}</Heading>
             <Text
               size={'14p'}
               css={{ color: '$gray400', fontFamily: '$default' }}
             >
-              {bookAuthor}
+              {coffeeAddress}
             </Text>
           </BookInfo>
           <Text css={{ color: '$gray300', fontSize: '$14p' }}>{review}</Text>

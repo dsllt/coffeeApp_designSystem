@@ -15,8 +15,8 @@ import { BookmarkSimple, Coffee } from 'phosphor-react'
 export interface ExploreBoxProps
   extends ComponentProps<typeof ExploreBoxContainer> {
   imgSrc: string
-  bookTitle: string
-  bookAuthor: string
+  coffeeName: string
+  coffeeAddress: string
   rating: number
   category: string
   recommended: string
@@ -25,8 +25,8 @@ export interface ExploreBoxProps
 
 export function ExploreBox({
   imgSrc,
-  bookTitle,
-  bookAuthor,
+  coffeeName,
+  coffeeAddress,
   rating,
   category,
   recommended,
@@ -35,15 +35,15 @@ export function ExploreBox({
   return (
     <ExploreBoxContainer>
       <BookContainer>
-        <BookImage src={imgSrc} alt={bookTitle} />
+        <BookImage src={imgSrc} alt={coffeeName} />
         <BookInfo>
           <div>
-            <Heading size={'20p'}>{bookTitle}</Heading>
+            <Heading size={'20p'}>{coffeeName}</Heading>
             <Text
               size={'16p'}
               css={{ color: '$gray300', fontFamily: '$default' }}
             >
-              {bookAuthor}
+              {coffeeAddress}
             </Text>
           </div>
           <div>
