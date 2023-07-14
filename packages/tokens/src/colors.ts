@@ -19,5 +19,5 @@ export const colors = {
   orange100: '#F4A35E',
   orange200: '#E3791E',
 
-  test: '#FFF',
+  test: '#FFFFF',
 }
