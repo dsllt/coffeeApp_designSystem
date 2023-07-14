@@ -17,3 +17,5 @@ export function Link({ children, size, color }: LinkProps) {
     </LinkContainer>
   )
 }
+
+Link.displayName = 'Link'

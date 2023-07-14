@@ -8,11 +8,10 @@ export default {
 
   args: {
     children: 'Link',
-    variant: 'white',
     size: 'small',
   },
   argTypes: {
-    variant: {
+    color: {
       options: ['white', 'orange'],
       control: {
         type: 'inline-radio',

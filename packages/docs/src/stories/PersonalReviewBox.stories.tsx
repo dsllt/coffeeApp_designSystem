@@ -15,6 +15,14 @@ export default {
       'Nec tempor nunc in egestas. Euismod nisi eleifend at et in sagittis. Penatibus id vestibulum imperdiet a at imperdiet lectu...',
     reviewDate: new Date('2023-07-10'),
   },
+  argTypes: {
+    rating: {
+      options: [1, 2, 3, 4, 5],
+      control: {
+        type: 'select',
+      },
+    },
+  },
 } as Meta<PersonalReviewBoxProps>
 
 export const Primary: StoryObj<PersonalReviewBoxProps> = {}

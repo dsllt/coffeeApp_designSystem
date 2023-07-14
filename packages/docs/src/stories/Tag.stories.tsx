@@ -8,6 +8,14 @@ export default {
   args: {
     children: 'Testando o elemento Tag',
   },
+  argTypes: {
+    selectStatus: {
+      options: ['default', 'selected'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
 } as Meta<TagProps>
 
 export const Primary: StoryObj<TagProps> = {}

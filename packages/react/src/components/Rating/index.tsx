@@ -45,3 +45,5 @@ export function Rating({ ratingStars, size = 16 }: RatingProps) {
     </RatingContainer>
   )
 }
+
+Rating.displayName = 'Rating'

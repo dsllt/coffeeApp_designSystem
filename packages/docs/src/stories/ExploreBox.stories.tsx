@@ -15,6 +15,14 @@ export default {
     recommended: 'Cappuccino',
     totalReviews: 3,
   },
+  argTypes: {
+    rating: {
+      options: [1, 2, 3, 4, 5],
+      control: {
+        type: 'select',
+      },
+    },
+  },
 } as Meta<ExploreBoxProps>
 
 export const Primary: StoryObj<ExploreBoxProps> = {}

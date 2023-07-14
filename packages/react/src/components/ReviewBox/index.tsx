@@ -73,3 +73,5 @@ export function ReviewBox({
     </ReviewBoxContainer>
   )
 }
+
+ReviewBox.displayName = 'ReviewBox'

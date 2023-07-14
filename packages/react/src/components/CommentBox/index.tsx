@@ -47,3 +47,5 @@ export function CommentBox({
     </CommentBoxContainer>
   )
 }
+
+CommentBox.displayName = 'CommentBox'

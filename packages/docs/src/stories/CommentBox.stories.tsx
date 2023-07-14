@@ -13,6 +13,14 @@ export default {
     review:
       'Nec tempor nunc in egestas. Euismod nisi eleifend at et in sagittis. Penatibus id vestibulum imperdiet a at imperdiet lectu...',
   },
+  argTypes: {
+    rating: {
+      options: [1, 2, 3, 4, 5],
+      control: {
+        type: 'select',
+      },
+    },
+  },
 } as Meta<CommentBoxProps>
 
 export const Primary: StoryObj<CommentBoxProps> = {}

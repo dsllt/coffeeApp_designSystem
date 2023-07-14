@@ -36,3 +36,5 @@ export function PopularBox({
     </PopularBoxContainer>
   )
 }
+
+PopularBox.displayName = 'PopularBox'

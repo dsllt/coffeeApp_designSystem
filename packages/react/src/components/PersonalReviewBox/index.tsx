@@ -57,3 +57,5 @@ export function PersonalReviewBox({
     </PersonalReviewBoxContainer>
   )
 }
+
+PersonalReviewBox.displayName = 'PersonalReviewBox'

@@ -15,3 +15,5 @@ export function Navigation({ icon, children, selectStatus }: NavigationProps) {
     </NavigationContainer>
   )
 }
+
+Navigation.displayName = 'Navigation'

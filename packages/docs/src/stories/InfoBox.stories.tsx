@@ -12,6 +12,14 @@ export default {
     bookAuthor: 'George Orwell',
     rating: 4,
   },
+  argTypes: {
+    rating: {
+      options: [1, 2, 3, 4, 5],
+      control: {
+        type: 'select',
+      },
+    },
+  },
 } as Meta<InfoBoxProps>
 
 export const Primary: StoryObj<InfoBoxProps> = {}

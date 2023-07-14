@@ -12,6 +12,14 @@ export default {
     icon: <ChartLineUp />,
     children: 'Início',
   },
+  argTypes: {
+    selectStatus: {
+      options: ['default', 'selected'],
+      control: {
+        type: 'inline-radio',
+      },
+    },
+  },
 } as Meta
 
 export const Primary: StoryObj = {}

@@ -8,8 +8,6 @@ export default {
   args: {
     userImg: 'https://github.com/diego3g.png',
     userName: 'Jaxson Dias',
-    reviewDate: new Date('2023-07-10'),
-    rating: 4,
   },
 } as Meta<NewCommentBoxProps>
 

@@ -80,3 +80,5 @@ export function ExploreBox({
     </ExploreBoxContainer>
   )
 }
+
+ExploreBox.displayName = 'ExploreBox'

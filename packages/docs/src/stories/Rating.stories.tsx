@@ -8,6 +8,14 @@ export default {
   args: {
     ratingStars: 0,
   },
+  argTypes: {
+    ratingStars: {
+      options: [1, 2, 3, 4, 5],
+      control: {
+        type: 'select',
+      },
+    },
+  },
   decorators: [
     (Story) => {
       return (

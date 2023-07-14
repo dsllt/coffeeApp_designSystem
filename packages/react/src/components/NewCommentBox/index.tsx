@@ -63,3 +63,5 @@ export function NewCommentBox({
     </NewCommentBoxContainer>
   )
 }
+
+NewCommentBox.displayName = 'NewCommentBox'

@@ -9,3 +9,5 @@ export interface TagProps extends ComponentProps<typeof TagContainer> {
 export function Tag({ children, selectStatus }: TagProps) {
   return <TagContainer selectStatus={selectStatus}>{children}</TagContainer>
 }
+
+Tag.displayName = 'Tag'

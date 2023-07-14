@@ -12,6 +12,15 @@ export default {
     coffeeAddress: 'Rua Fernandes Vieira, 656 - Bom Fim',
     rating: 4,
   },
+
+  argTypes: {
+    rating: {
+      options: [1, 2, 3, 4, 5],
+      control: {
+        type: 'select',
+      },
+    },
+  },
 } as Meta<PopularBoxProps>
 
 export const Primary: StoryObj<PopularBoxProps> = {}
