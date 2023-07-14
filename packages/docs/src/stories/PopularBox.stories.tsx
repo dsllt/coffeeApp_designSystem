@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { PopularBox, PopularBoxProps } from '@POAcoffee/react'
+import { PopularBox, PopularBoxProps } from '@poacoffee/react'
 
 export default {
   title: 'Data display/Popular Box',

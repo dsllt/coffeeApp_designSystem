@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { NewCommentBox, NewCommentBoxProps } from '@POAcoffee/react'
+import { NewCommentBox, NewCommentBoxProps } from '@poacoffee/react'
 
 export default {
   title: 'Data display/New Comment Box',

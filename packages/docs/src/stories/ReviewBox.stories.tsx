@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { ReviewBox, ReviewBoxProps } from '@POAcoffee/react'
+import { ReviewBox, ReviewBoxProps } from '@poacoffee/react'
 
 export default {
   title: 'Data display/Review Box',

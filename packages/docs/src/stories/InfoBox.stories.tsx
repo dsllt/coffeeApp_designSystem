@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { InfoBox, InfoBoxProps } from '@POAcoffee/react'
+import { InfoBox, InfoBoxProps } from '@poacoffee/react'
 
 export default {
   title: 'Data display/InfoBox',

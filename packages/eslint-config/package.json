@@ -1,5 +1,5 @@
 {
-  "name": "@POAcoffee/eslint-config",
+  "name": "@poacoffee/eslint-config",
   "main": "index.js",
   "license": "MIT",
   "private": true,

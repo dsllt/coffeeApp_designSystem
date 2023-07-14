@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, BoxProps, Text } from '@POAcoffee/react'
+import { Box, BoxProps, Text } from '@poacoffee/react'
 
 export default {
   title: 'Surface/Box',

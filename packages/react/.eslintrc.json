@@ -1,3 +1,3 @@
 {
-  "extends": "@POAcoffee/eslint-config"
+  "extends": "@poacoffee/eslint-config"
 }

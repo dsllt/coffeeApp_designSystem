@@ -7,7 +7,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@POAcoffee/tokens'
+} from '@poacoffee/tokens'
 
 export const {
   styled,

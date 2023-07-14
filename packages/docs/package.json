@@ -1,5 +1,5 @@
 {
-  "name": "@POAcoffee/docs",
+  "name": "@poacoffee/docs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -27,10 +27,10 @@
     "vite": "^4.3.9"
   },
   "dependencies": {
-    "@POAcoffee/eslint-config": "*",
-    "@POAcoffee/react": "*",
-    "@POAcoffee/tokens": "*",
-    "@POAcoffee/ts-config": "*",
+    "@poacoffee/eslint-config": "*",
+    "@poacoffee/react": "*",
+    "@poacoffee/tokens": "*",
+    "@poacoffee/ts-config": "*",
     "polished": "^4.2.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"

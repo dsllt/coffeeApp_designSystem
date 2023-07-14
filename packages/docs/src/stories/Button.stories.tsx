@@ -1,6 +1,6 @@
 import React from 'react'
 import type { Meta, StoryObj } from '@storybook/react'
-import { Button } from '@POAcoffee/react'
+import { Button } from '@poacoffee/react'
 import { X } from 'phosphor-react'
 
 export default {

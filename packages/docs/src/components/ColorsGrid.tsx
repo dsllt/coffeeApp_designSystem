@@ -1,5 +1,5 @@
 import React from 'react'
-import { colors } from '@POAcoffee/tokens'
+import { colors } from '@poacoffee/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { TextInput, TextInputProps } from '@POAcoffee/react'
+import { TextInput, TextInputProps } from '@poacoffee/react'
 
 export default {
   title: 'Form/Text Input',

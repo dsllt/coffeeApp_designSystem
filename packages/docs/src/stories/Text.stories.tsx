@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Text, TextProps } from '@POAcoffee/react'
+import { Text, TextProps } from '@poacoffee/react'
 
 export default {
   title: 'Typography/Text',

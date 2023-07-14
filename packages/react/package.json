@@ -1,5 +1,5 @@
 {
-  "name": "@POAcoffee/react",
+  "name": "@poacoffee/react",
   "version": "1.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,9 +14,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@POAcoffee/eslint-config": "*",
-    "@POAcoffee/tokens": "*",
-    "@POAcoffee/ts-config": "*",
+    "@poacoffee/eslint-config": "*",
+    "@poacoffee/tokens": "*",
+    "@poacoffee/ts-config": "*",
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
     "react": "^18.2.0",

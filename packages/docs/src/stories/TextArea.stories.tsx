@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Text, TextArea, TextAreaProps } from '@POAcoffee/react'
+import { Box, Text, TextArea, TextAreaProps } from '@poacoffee/react'
 
 export default {
   title: 'Form/Text Area',

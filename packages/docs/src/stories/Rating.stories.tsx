@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, Rating, RatingProps } from '@POAcoffee/react'
+import { Box, Rating, RatingProps } from '@poacoffee/react'
 
 export default {
   title: 'Data display/Rating',

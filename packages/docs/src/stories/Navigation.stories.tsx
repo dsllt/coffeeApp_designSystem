@@ -1,6 +1,6 @@
 import React from 'react'
 import type { Meta, StoryObj } from '@storybook/react'
-import { Navigation } from '@POAcoffee/react'
+import { Navigation } from '@poacoffee/react'
 import { ChartLineUp } from 'phosphor-react'
 
 export default {

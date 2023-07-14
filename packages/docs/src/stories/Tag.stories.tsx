@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Tag, TagProps } from '@POAcoffee/react'
+import { Tag, TagProps } from '@poacoffee/react'
 
 export default {
   title: 'Surface/Tag',

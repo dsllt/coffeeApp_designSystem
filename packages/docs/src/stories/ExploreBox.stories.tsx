@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { ExploreBox, ExploreBoxProps } from '@POAcoffee/react'
+import { ExploreBox, ExploreBoxProps } from '@poacoffee/react'
 
 export default {
   title: 'Data display/Explore Box',

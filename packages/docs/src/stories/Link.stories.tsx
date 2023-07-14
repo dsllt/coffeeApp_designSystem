@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from '@storybook/react'
-import { Link } from '@POAcoffee/react'
+import { Link } from '@poacoffee/react'
 
 export default {
   title: 'Actions/Link',
