@@ -14,7 +14,15 @@ const config = {
     options: {},
   },
   docs: {
-    autodocs: "tag",
-  },
+    autodocs: "tag",    
+    defaultName: 'Documentation',
+  },  
+  viteFinal: (config, { configType }) => {
+    if (configType === 'PRODUCTION') {
+      config.base = '/coffeeApp_designSystem/'
+    }
+
+    return config
+  }
 };
 export default config;
