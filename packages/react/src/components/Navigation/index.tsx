@@ -1,16 +1,21 @@
 import { NavigationContainer } from './styles'
-import { ComponentProps } from 'react'
+import { ComponentProps, ReactNode } from 'react'
 
 export interface NavigationProps
   extends ComponentProps<typeof NavigationContainer> {
-  icon: string
-  children: string
+  icon: string | ReactNode
+  children: string | ReactNode
   selectStatus: 'default' | 'selected'
 }
 
-export function Navigation({ icon, children, selectStatus }: NavigationProps) {
+export function Navigation({
+  icon,
+  children,
+  selectStatus,
+  ...props
+}: NavigationProps) {
   return (
-    <NavigationContainer selectStatus={selectStatus}>
+    <NavigationContainer selectStatus={selectStatus} {...props}>
       {icon} {children}
     </NavigationContainer>
   )

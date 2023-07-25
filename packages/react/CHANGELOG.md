@@ -1,5 +1,11 @@
 # @poacoffee/react
 
+## 3.0.2
+
+### Patch Changes
+
+- Change navigation properties
+
 ## 3.0.1
 
 ### Patch Changes
