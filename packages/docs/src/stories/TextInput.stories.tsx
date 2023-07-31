@@ -11,5 +11,6 @@ export default {
 export const Primary: StoryObj<TextInputProps> = {
   args: {
     placeholder: 'Buscar livro avaliado',
+    mainWidth: 307,
   },
 }

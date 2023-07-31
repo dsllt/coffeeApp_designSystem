@@ -1,5 +1,11 @@
 # @poacoffee/react
 
+## 3.0.3
+
+### Patch Changes
+
+- Includes new component ProfilePersonalReviewBox
+
 ## 3.0.2
 
 ### Patch Changes
