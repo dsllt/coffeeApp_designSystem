@@ -3,8 +3,8 @@ import { AvatarContainer, AvatarImage, AvatarFallback } from './styles'
 import { User } from 'phosphor-react'
 
 export interface AvatarProps extends ComponentProps<typeof AvatarImage> {
-  containerWidth: number
-  containerHeight: number
+  containerWidth?: number
+  containerHeight?: number
 }
 
 export function Avatar({

@@ -8,6 +8,8 @@ export default {
   args: {
     src: 'https://github.com/diego3g.png',
     alt: 'Diego',
+    containerWidth: 40,
+    containerHeight: 40,
   },
   argTypes: {
     src: {
