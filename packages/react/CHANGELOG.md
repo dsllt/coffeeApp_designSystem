@@ -1,5 +1,11 @@
 # @poacoffee/react
 
+## 3.0.4
+
+### Patch Changes
+
+- Creates new component for ProfileInfo Box
+
 ## 3.0.3
 
 ### Patch Changes
