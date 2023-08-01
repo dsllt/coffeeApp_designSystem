@@ -6,8 +6,12 @@ export interface TagProps extends ComponentProps<typeof TagContainer> {
   selectStatus: 'default' | 'selected'
 }
 
-export function Tag({ children, selectStatus }: TagProps) {
-  return <TagContainer selectStatus={selectStatus}>{children}</TagContainer>
+export function Tag({ children, selectStatus, ...props }: TagProps) {
+  return (
+    <TagContainer selectStatus={selectStatus} {...props}>
+      {children}
+    </TagContainer>
+  )
 }
 
 Tag.displayName = 'Tag'
