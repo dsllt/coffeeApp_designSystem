@@ -2,36 +2,50 @@ import { ComponentProps } from 'react'
 import { Heading } from '../Heading'
 import { Rating } from '../Rating'
 import { Text } from '../Text'
-import { BookImage, BookInfo, InfoBoxContainer } from './style'
+import {
+  CoffeeImage,
+  CoffeeInfo,
+  InfoBoxContainer,
+  VisitedContainer,
+} from './style'
 
 export interface InfoBoxProps extends ComponentProps<typeof InfoBoxContainer> {
   imgSrc: string
-  bookTitle: string
-  bookAuthor: string
+  coffeeName: string
+  coffeeAddress: string
   rating: number
+  visited: boolean
 }
 
 export function InfoBox({
   imgSrc,
-  bookTitle,
-  bookAuthor,
+  coffeeName,
+  coffeeAddress,
   rating,
+  visited,
+  ...props
 }: InfoBoxProps) {
   return (
-    <InfoBoxContainer>
-      <BookImage src={imgSrc} alt={bookTitle} />
-      <BookInfo>
+    <InfoBoxContainer {...props}>
+      {visited ? <VisitedContainer>descoberto</VisitedContainer> : <></>}
+
+      <CoffeeImage src={imgSrc} alt={coffeeName} />
+      <CoffeeInfo>
         <div>
-          <Heading size={'18p'}>{bookTitle}</Heading>
+          <Heading size={'18p'}>{coffeeName}</Heading>
           <Text
             size={'16p'}
-            css={{ color: '$gray400', fontFamily: '$default' }}
+            css={{
+              color: '$gray400',
+              fontFamily: '$default',
+            }}
+            className="coffeeAddress"
           >
-            {bookAuthor}
+            {coffeeAddress}
           </Text>
         </div>
         <Rating ratingStars={rating} />
-      </BookInfo>
+      </CoffeeInfo>
     </InfoBoxContainer>
   )
 }

@@ -8,8 +8,8 @@ export default {
   args: {
     imgSrc:
       'https://m.media-amazon.com/images/P/B009WWDBX0.01._SCLZZZZZZZ_SX500_.jpg',
-    bookTitle: 'A revolução dos bichos',
-    bookAuthor: 'George Orwell',
+    coffeeName: 'A revolução dos bichos',
+    coffeeAddress: 'George Orwell',
     rating: 4,
   },
   argTypes: {
@@ -23,3 +23,13 @@ export default {
 } as Meta<InfoBoxProps>
 
 export const Primary: StoryObj<InfoBoxProps> = {}
+export const Visited: StoryObj<InfoBoxProps> = {
+  args: {
+    imgSrc:
+      'https://lh3.googleusercontent.com/p/AF1QipMaOguJHFLhc0Vmu5dgd1_y26zPljSNnCMjagU4=s1360-w1360-h1020',
+    coffeeName: 'The Coffee',
+    coffeeAddress: 'Rua Fernandes Vieira, 656 - Bom Fim',
+    rating: 4,
+    visited: true,
+  },
+}
