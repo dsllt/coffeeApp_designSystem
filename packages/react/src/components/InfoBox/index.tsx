@@ -14,7 +14,7 @@ export interface InfoBoxProps extends ComponentProps<typeof InfoBoxContainer> {
   coffeeName: string
   coffeeAddress: string
   rating: number
-  visited: boolean
+  visited?: boolean
 }
 
 export function InfoBox({
@@ -22,7 +22,7 @@ export function InfoBox({
   coffeeName,
   coffeeAddress,
   rating,
-  visited,
+  visited = false,
   ...props
 }: InfoBoxProps) {
   return (

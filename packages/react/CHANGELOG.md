@@ -1,5 +1,11 @@
 # @poacoffee/react
 
+## 3.0.7
+
+### Patch Changes
+
+- Small modification in infoBoc
+
 ## 3.0.6
 
 ### Patch Changes
