@@ -8,6 +8,8 @@ export const TagContainer = styled('button', {
   border: '2px solid $orange100',
   borderRadius: '$full',
   display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'center',
   width: 'fit-content',
   padding: '$8p $16p',
   cursor: 'pointer',

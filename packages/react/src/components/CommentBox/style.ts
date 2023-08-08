@@ -2,8 +2,7 @@ import { styled } from '../../styles'
 import { Box } from '../Box'
 
 export const CommentBoxContainer = styled(Box, {
-  width: 608,
-  // height: 280,
+  maxWidth: 564,
   display: 'flex',
   flexDirection: 'column',
   alignContent: 'space-between',
